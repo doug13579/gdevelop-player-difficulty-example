@@ -1014,18 +1014,7 @@
                 "NewText",
                 "Text",
                 "+",
-                "ToString(player.Health::Health()) + NewLine()"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "NewText",
-                "Text",
-                "+",
-                "ToString(player.Health::MaxHealth())"
+                "\"Helath: \" + ToString(player.Health::Health()) + \"/\" + ToString(player.Health::MaxHealth()) +NewLine()"
               ]
             }
           ]
